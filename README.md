@@ -7,5 +7,5 @@ film grain to everything except the active window.
 brew install --cask roman1kuz/tap/moody-dimmer
 ```
 
-Update with `brew upgrade moody-dimmer`. Questions and bug reports go to the
+Update with `brew update && brew upgrade moody-dimmer`. Questions and bug reports go to the
 [Moody Dimmer issues](https://github.com/roman1kuz/MoodyDimmer/issues).
