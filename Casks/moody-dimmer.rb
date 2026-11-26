@@ -1,6 +1,6 @@
 cask "moody-dimmer" do
-  version "1.1.0"
-  sha256 "b3f88e30f5ba5fb301fe82a39c8622536df6ba5562634793a60b2d1296efdfd5"
+  version "1.1.1"
+  sha256 "74f50247487dd59c6a6ccc032a20184960e0e765923c5a3e36e1fe4bca181b8a"
 
   url "https://github.com/roman1kuz/MoodyDimmer/releases/download/v#{version}/MoodyDimmer-#{version}.dmg"
   name "Moody Dimmer"
