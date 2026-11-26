@@ -1,13 +1,13 @@
 cask "moody-dimmer" do
-  version "1.0.0"
-  sha256 "fecc22b1b82fcef4b93957881df066f1f285fd7f0dd307db05d9fa148374f2f1"
+  version "1.1.0"
+  sha256 "b3f88e30f5ba5fb301fe82a39c8622536df6ba5562634793a60b2d1296efdfd5"
 
   url "https://github.com/roman1kuz/MoodyDimmer/releases/download/v#{version}/MoodyDimmer-#{version}.dmg"
   name "Moody Dimmer"
   desc "Dims, blurs or adds film grain to everything except the active window"
   homepage "https://github.com/roman1kuz/MoodyDimmer"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :tahoe
 
   app "Moody Dimmer.app"
 
